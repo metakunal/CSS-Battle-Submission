@@ -1,0 +1,100 @@
+<!-- 
+    Problem Statement 2
+
+    Event: CSS Battle
+    Tagline: Battle It Out - The CSS Version
+    Problem Statement designed by: 
+    Prakhar Gupta
+    (MCA Final Year)
+    Departmental Co-ordinator, CSED
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Product Card</title>
+</head>
+
+
+</html>
+<div class="wrapper">
+    <!--image-->
+    <div class="image">
+        <div class="inner">
+            <div class="prod front fade">
+                <img alt="product-tshirt" src="tshirt.jpeg">
+            </div>
+            <div class="prod back fade">
+                <img alt="product-tshirt" src="back.jpeg">
+
+            </div>
+        </div>
+    </div>
+    <!-- The dots/circles -->
+    <div style="text-align:center" class="dotted">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <!--details-->
+    <div class="main">
+
+        <div class="details">
+            <h1>Addidas Original</h1>
+            <!-- <span class="label">New</span> -->
+
+            <div class="card">
+                <div class="product-details">
+                    <div class="prod-name-price">
+                        <div class="prod-name">
+                            <h2>Premium Quality T-Shirt</h2>
+                            <div class="price">
+                                <div class="prod-price">
+                                    <h3>₹290</h3>
+                                    <h3></h3>
+                                </div>
+
+                            </div>
+                            <i class="fa fa-heart"> </i>
+                            <div class="descrip"><s>₹400</s></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="tag-quantity">
+                        <div class="tag">
+                            <span>Application Club</span>
+                        </div>
+                        <div class="quantity">
+                            <button>+</button>
+                            <span>2</span>
+                            <button>-</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div><strong>Size</strong></div>
+                <button class="cs">S</button>
+                <button class="cs">M</button>
+                <button class="cs">L</button>
+                <button class="cs">XL</button>
+
+
+                <div class="btn">
+                    <button type="submit" class="cart"><strong>Add To Cart</strong></button>
+                    <button type="submit" class="cart"><strong>Buy Now</strong></button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

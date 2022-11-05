@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #EDE7F6;
+    font-family: 'lato';
+}
+
+.wrapper {
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    background-color: white;
+    border: 2px solid #6200EA;
+
+    width: 500px;
+    height: 630px;
+    box-shadow: 0px 8px 60px -10px white;
+    border-radius: 10px;
+    padding: 0px;
+    padding-top: 0px;
+}
+
+/*product image*/
+img {
+    position: fixed;
+    top: 10%;
+    right: 60%;
+    width: 70%;
+    float: left;
+    border-radius: 10px;
+}
+
+.prod {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.96
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: brown;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dotted {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+}
+
+.active,
+.dot:hover {
+    background-color: #455A64;
+}
+
+/*-----*/
+
+.details {
+    height: auto;
+    width: 55%;
+    float: right;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    position: fixed;
+    right: 5%;
+}
+
+.label {
+    background: red;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 7px;
+    font-size: 10px;
+    margin-left: 10px;
+
+    position: absolute;
+    top: 24.5%;
+    right: 32%;
+}
+
+.card {
+    padding-top: 80px;
+}
+
+.fa {
+    float: right;
+    position: fixed;
+    top: 24.5%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.fa:hover {
+    color: red;
+}
+
+.descrip {
+    margin-bottom: 10px;
+}
+
+/**button**/
+button {
+    border: none;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cs {
+    width: 59.5px;
+    padding: 3px;
+}
+
+
+#white {
+    background-color: #D4CFC9;
+}
+
+#blue {
+    background-color: #1876FB;
+}
+
+#yellow {
+    background-color: #E5D817;
+}
+
+#red {
+    background-color: #DDB087;
+}
+
+.cart {
+    width: 90%;
+    background-color: #E57373;
+    margin-top: 15px;
+}
+
+button:active {
+    background-color: #D4CFC9;
+}
+
+/*-------*/
